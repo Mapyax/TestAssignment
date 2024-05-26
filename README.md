@@ -29,3 +29,16 @@ def main():
 def parse_json_file(files: list) -> None:
     with zipfile.ZipFile('egrul.json.zip', 'r') as archive:
 ```
+Скрипт создания таблицы:
+```sql
+create table EGRUL62
+(
+    id SERIAL primary key ,
+    name varchar not null ,
+    full_name varchar not null ,
+    okved varchar(20) not null ,
+    inn varchar(10) not null ,
+    kpp varchar(9) not null ,
+    adres varchar not null 
+);
+```
