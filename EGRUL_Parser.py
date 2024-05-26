@@ -204,7 +204,7 @@ class Company(BaseModel): # pydantic classes to parse needed fields
 
 def insert_data_to_db(data: list) -> None:
     conn = psycopg2.connect(
-        database='postgres', user='postgres', password='123', host='localhost' # connect to your database
+        database='your_db', user='your_username', password='your_password', host='your_host' # connect to your database
     )
     cursor = conn.cursor()
     # logger.info("Connected to DB")
