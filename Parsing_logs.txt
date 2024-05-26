@@ -1,0 +1,5 @@
+2024-05-26 22:13:49,876 | Start
+2024-05-26 22:13:49,878 | Opened archive: tests.zip
+2024-05-26 22:13:49,878 | Chunks generated
+2024-05-26 22:13:52,278 | Chunk has been parsed
+2024-05-26 22:13:52,342 | Executed
